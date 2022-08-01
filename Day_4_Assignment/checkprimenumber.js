@@ -6,7 +6,8 @@ let input=17
 let counter=2
 
 let isPrime=true;
-while(counter<input/2){
+let sqrtInput=Math.sqrt(input)
+while(counter<=sqrtInput){
     if(input % counter == 0){
         isPrime=false;
     }
