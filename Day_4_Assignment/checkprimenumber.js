@@ -6,7 +6,7 @@ let input=17
 let counter=2
 
 let isPrime=true;
-while(counter<input){
+while(counter<input/2){
     if(input % counter == 0){
         isPrime=false;
     }
