@@ -57,7 +57,7 @@ function reverse(input) {
     return inputArr.join("");
 }
 
-let input = "How are you";
+let input = "how are you";
 console.log(toLowerCase(input));
 console.log(convertFirstCharToUpperCase(input));
 console.log(toUpperCase(input));
