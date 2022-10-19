@@ -2,9 +2,14 @@
 //Iterate over each char of a string
 function iterate(input){
 
-    input.split("").forEach((item)=>{
-        console.log(item);
-    });
+    let iter = input.split("")[Symbol.iterator]();
+
+    let data = iter.next();
+    while(!data.done){
+        console.log(data.value);
+        data = iter.next();
+    }
+
 
 }
 

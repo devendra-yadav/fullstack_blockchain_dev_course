@@ -1,10 +1,13 @@
 
 //iterate over input array
 function iterate(inputArr){
-
-    inputArr.forEach((item)=>{
-        console.log(item);
-    });
+    let iter = inputArr[Symbol.iterator]();
+    
+    let data=iter.next();
+    while(!data.done){
+        console.log(data.value);
+        data = iter.next();
+    }
 
 }
 
