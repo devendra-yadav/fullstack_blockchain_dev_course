@@ -1,1 +1,31 @@
-test.js
+I bring with me a vast experience of 16+ years in IT industry with me. Apart from blockchain, solidity I have strong technical knowledge of Java, SQL, Springboot etc and have experience with leading a team. I will be an asset for the company if given the opportunity.
+
+
+Apart from being a blockchain enthusiast and having knowledge of solidity, I bring with me a vast experience of 16+ years in IT industry with me. I have strong technical knowledge of Java, SQL, Springboot, blockchain, solidity etc and have experience with leading a team. I will be an asset for the company if given the opportunity
+
+
+
+
+I have a vast experience of 16+ years in IT industry. Strong technical background (application development) as well as experience to lead a team. I have strong analytical and communication skills. I think I will be a perfect fit for this opening.
+
+
+
+Web services
+Software development
+
+
+Java,Spring Boot,Linux,Oracle,Software Development Lifecycle,Requirement Analysis,Technical Design,Detailed Analysis,Agile Process,Web Application,,Unix,Shell Scripting,Service Management,Incident Management,Scrum Methodology,Itil Foundations,Service Delivery,Troubleshooting,Leadership,Blockchain,Sql
+
+
+
+console.log('start')
+const fn = () => (new Promise((resolve, reject) => {
+console.log(1);
+resolve('success')
+}))
+console.log('middle')
+fn().then(res => {
+console.log(res)
+})
+
+console.log('end')
