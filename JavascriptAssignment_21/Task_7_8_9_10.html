@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function changeColor(){
+                let allH2Tags = document.getElementsByTagName("h2");
+                for(let i=0;i<allH2Tags.length;i++){
+                    allH2Tags[i].style.color = "purple";
+                }
+            }
+
+            function createH4Tag(){
+                document.getElementById("myArea").innerHTML = "<h4>New H4 tag</h4>";
+            }
+
+            function removeH4Tag(){
+                document.getElementById("myArea").innerHTML = "";
+            }
+            
+            function countAllPTags(){
+                let allPtags = document.getElementsByTagName("p");
+                alert(`Total count of <p> tags is ${allPtags.length}`);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <h2>h2 header</h2>
+        <h2>2nd h2 header</h2>
+        <h2>3rd h2 header</h2>
+        <div id="myArea"></div>
+        <p>first p tag</p>
+        <p>second p tag</p>
+        <p>third p tag</p>
+        
+        <button onclick="changeColor()">H2 Change Color</button>
+        <button onclick="createH4Tag()">Create h4 tag</button>
+        <button onclick="removeH4Tag()">remove h4 tag</button>
+        <button onclick="countAllPTags()">Count p tags</button>
+    </body>
+</html>

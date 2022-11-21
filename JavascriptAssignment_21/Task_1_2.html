@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function changeText(){
+                document.getElementById("welcome_header").innerText="Hello World";
+            }
+            function changeStyle(){
+                document.getElementById("welcome_header").style.color="red";
+                document.getElementById("welcome_header").style.fontWeight="bold";
+                document.getElementById("welcome_header").style.textTransform="UpperCase";
+                
+            }
+        </script>
+    </head>
+    <body>
+        <h2 id="welcome_header">Welcome Page</h2>
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="changeStyle()">Change Style</button>
+    </body>
+</html>

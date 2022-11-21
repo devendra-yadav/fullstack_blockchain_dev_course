@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            let newWindow;
+
+            function openPage(){
+                newWindow = window.open("","New Window", "width=800,height=400");
+                newWindow.document.write("<h1>New Window</h1>");
+            }
+
+            function closePage(){
+                let closePage=confirm('Do you really want to close the page?');
+                if(closePage){
+                    
+                    newWindow.close();
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1>Welcome page</h1>
+        <button onclick="openPage()">Open Page</button>
+        <button onclick="closePage()">Close Page</button>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function getFormValue(){
+                let name = document.getElementById("name").value;
+                alert("Name is " + name);
+
+            }
+            
+        </script>
+    </head>
+    <body>
+        <form id="form1" onsubmit="getFormValue()">
+            Name : <input type="text" id="name"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
